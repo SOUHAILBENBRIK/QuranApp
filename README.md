@@ -14,11 +14,13 @@ This Flutter mobile app allows users to read and listen to the Quran seamlessly.
 - 🎧 **Audio Playback with Audioplayers**: Listen to the Quran with ease.
 
 ## Technologies Used
-
-- **Flutter**
 - **Dio**
 - **GetX**
 - **Audioplayers**
+- **flutter_svg**
+- **google_sign_in**
+- **shared_preferences**
+  
 
 ## Future Updates
 
@@ -53,7 +55,7 @@ This Flutter mobile app allows users to read and listen to the Quran seamlessly.
 
 2. Navigate to the project directory:
     ```bash
-    cd quran-reader-app
+    cd QuranApp-master
     ```
 
 3. Install dependencies:
@@ -70,6 +72,4 @@ This Flutter mobile app allows users to read and listen to the Quran seamlessly.
 
 Feel free to fork this repository, submit issues and pull requests.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
