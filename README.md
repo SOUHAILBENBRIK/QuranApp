@@ -26,32 +26,24 @@ This Flutter mobile app allows users to read and listen to the Quran seamlessly.
 - 📑 **Bookmarking**: Save your favorite verses for easy access.
 
 ## Screenshots
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="flex: 1; max-width: 49%;">
-    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/introPage.jpeg" alt="Screenshot 1" style="width: 100%;">
-  </div>
-  <div style="flex: 1; max-width: 49%;">
-    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg" alt="Screenshot 2" style="width: 100%;">
-  </div>
-  <div style="flex: 1; min-width: 49%;">
-    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/homePage.jpeg" alt="Screenshot 3" style="width: 100%;">
-  </div>
-  <div style="flex: 1; min-width: 49%;">
-    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg" alt="Screenshot 4" style="width: 100%;">
-  </div>
-  <div style="flex: 1; min-width: 49%;">
-    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg" alt="Screenshot 5" style="width: 100%;">
-  </div>
-  <div style="flex: 1; min-width: 49%;">
-    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/homePage.jpeg" alt="Screenshot 6" style="width: 100%;">
-  </div>
-  <div style="flex: 1; min-width: 49%;">
-    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg" alt="Screenshot 7" style="width: 100%;">
-  </div>
-  <div style="flex: 1; min-width: 49%;">
-    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg" alt="Screenshot 8" style="width: 100%;">
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/introPage.jpeg" alt="Screenshot 1" style="width: 100%;"></td>
+    <td><img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg" alt="Screenshot 2" style="width: 100%;"></td>
+  </tr>
+  <tr>
+    <td><img src="path/to/screenshot3.png" alt="Screenshot 3" style="width: 100%;"></td>
+    <td><img src="path/to/screenshot4.png" alt="Screenshot 4" style="width: 100%;"></td>
+  </tr>
+  <tr>
+    <td><img src="path/to/screenshot5.png" alt="Screenshot 5" style="width: 100%;"></td>
+    <td><img src="path/to/screenshot6.png" alt="Screenshot 6" style="width: 100%;"></td>
+  </tr>
+  <tr>
+    <td><img src="path/to/screenshot7.png" alt="Screenshot 7" style="width: 100%;"></td>
+    <td><img src="path/to/screenshot8.png" alt="Screenshot 8" style="width: 100%;"></td>
+  </tr>
+</table>
 
 ## Installation
 
