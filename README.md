@@ -27,10 +27,10 @@ This Flutter mobile app allows users to read and listen to the Quran seamlessly.
 
 ## Screenshots
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="flex: 1; min-width: 49%;">
+  <div style="flex: 1; max-width: 49%;">
     <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/introPage.jpeg" alt="Screenshot 1" style="width: 100%;">
   </div>
-  <div style="flex: 1; min-width: 49%;">
+  <div style="flex: 1; max-width: 49%;">
     <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg" alt="Screenshot 2" style="width: 100%;">
   </div>
   <div style="flex: 1; min-width: 49%;">
