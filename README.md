@@ -32,16 +32,15 @@ This Flutter mobile app allows users to read and listen to the Quran seamlessly.
     <td><img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg" alt="Screenshot 2" style="width: 100%;"></td>
   </tr>
   <tr>
-    <td><img src="path/to/screenshot3.png" alt="Screenshot 3" style="width: 100%;"></td>
-    <td><img src="path/to/screenshot4.png" alt="Screenshot 4" style="width: 100%;"></td>
+    <td><img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/homePage.jpeg" alt="Screenshot 3" style="width: 100%;"></td>
+    <td><img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg" alt="Screenshot 4" style="width: 100%;"></td>
   </tr>
   <tr>
-    <td><img src="path/to/screenshot5.png" alt="Screenshot 5" style="width: 100%;"></td>
-    <td><img src="path/to/screenshot6.png" alt="Screenshot 6" style="width: 100%;"></td>
+    <td><img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/playSurahPage.jpeg" style="width: 100%;"></td>
+    <td><img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/surahInfo.jpeg" alt="Screenshot 6" style="width: 100%;"></td>
   </tr>
   <tr>
-    <td><img src="path/to/screenshot7.png" alt="Screenshot 7" style="width: 100%;"></td>
-    <td><img src="path/to/screenshot8.png" alt="Screenshot 8" style="width: 100%;"></td>
+    <td><img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/profilePage.jpeg" style="width: 100%;"></td>
   </tr>
 </table>
 
