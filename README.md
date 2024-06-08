@@ -20,6 +20,7 @@ This Flutter mobile app allows users to read and listen to the Quran seamlessly.
 - **flutter_svg**
 - **google_sign_in**
 - **shared_preferences**
+- **flutter_launcher_icons**
   
 
 ## Future Updates
