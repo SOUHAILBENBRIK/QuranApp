@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:quran/controller/auth_controller.dart';
-import 'package:quran/utils/app_colors.dart';
 import 'package:quran/utils/app_consts.dart';
 import 'package:quran/utils/app_route.dart';
-import 'package:quran/widgets/intro_button_widget.dart';
 import 'package:quran/widgets/login_button_widget.dart';
 import 'package:toast/toast.dart';
 
@@ -22,7 +20,7 @@ class LoginScreenMobile extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Spacer(
+              const Spacer(
                 flex: 2,
               ),
               Text(
@@ -52,10 +50,10 @@ class LoginScreenMobile extends StatelessWidget {
                       Navigator.pushReplacementNamed(
                           context, AppRoute.homeScreenMobile);
                     }).catchError((onError) {
-                      Toast.show("Error :" + onError.toString(),backgroundColor: Colors.redAccent);
+                      Toast.show("Error :$onError",backgroundColor: Colors.redAccent);
                     });
                   }),
-              Spacer(
+              const Spacer(
                 flex: 2,
               ),
             ],

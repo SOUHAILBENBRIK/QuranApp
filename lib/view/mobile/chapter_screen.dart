@@ -55,7 +55,7 @@ class _ChapterScreenState extends State<ChapterScreen> {
             },
             child: SvgPicture.asset("assets/icons/play.svg"),
           ),
-          SizedBox(
+          const SizedBox(
             width: 15,
           ),
         ],
@@ -65,7 +65,7 @@ class _ChapterScreenState extends State<ChapterScreen> {
         ),
       ),
       body: SafeArea(
-        minimum: EdgeInsets.only(top: 20),
+        minimum: const EdgeInsets.only(top: 20),
         child: SizedBox(
           height: AppConsts.getHeight(context),
           width: AppConsts.getWidth(context),
@@ -85,9 +85,9 @@ class _ChapterScreenState extends State<ChapterScreen> {
 
   FutureBuilder<List<Ayah>?> listPfAyah(ChapterModule chapter) {
     return FutureBuilder<List<Ayah>?>(
-        future: ApiController.getChapterAyah(chapter_id: chapter.id),
+        future: ApiController.getChapterAyah(chapterId: chapter.id),
         builder: (context, snapshot) {
-          print(chapter.id);
+        
           if (snapshot.hasData && snapshot.data != null) {
             int id = 0;
             return Expanded(
@@ -111,16 +111,16 @@ class _ChapterScreenState extends State<ChapterScreen> {
 
 Widget _ayahText(BuildContext context, {required Ayah ayah, required int id}) {
   return Container(
-    margin: EdgeInsets.symmetric(horizontal: 15),
+    margin: const EdgeInsets.symmetric(horizontal: 15),
     width: AppConsts.getWidth(context),
     height: AppConsts.getHeight(context) * 0.2,
-    padding: EdgeInsets.symmetric(horizontal: 12),
+    padding: const EdgeInsets.symmetric(horizontal: 12),
     child: Column(
       children: [
         Container(
           width: AppConsts.getWidth(context) * 0.9,
           height: AppConsts.getHeight(context) * 0.05,
-          padding: EdgeInsets.symmetric(horizontal: 5),
+          padding: const EdgeInsets.symmetric(horizontal: 5),
           decoration: BoxDecoration(
               borderRadius: const BorderRadius.all(Radius.circular(12)),
               color: AppColors.greyColor.withOpacity(0.1)),
@@ -135,7 +135,7 @@ Widget _ayahText(BuildContext context, {required Ayah ayah, required int id}) {
                 child: Center(
                     child: Text(
                   (id).toString(),
-                  style: TextStyle(color: Colors.white, fontSize: 12),
+                  style: const TextStyle(color: Colors.white, fontSize: 12),
                 )),
               ),
               const Spacer(),
@@ -159,7 +159,7 @@ Widget _ayahText(BuildContext context, {required Ayah ayah, required int id}) {
           child: Text(
             ayah.text_imlaei,
             overflow: TextOverflow.fade,
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+            style: const TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
           ),
         ),
         SizedBox(
@@ -199,7 +199,7 @@ Widget _topWidget(context, {required ChapterModule chapter}) {
           color: AppColors.primeColor1.withOpacity(0.5),
           spreadRadius: 5,
           blurRadius: 7,
-          offset: Offset(0, 3), // changes position of shadow
+          offset: const Offset(0, 3), // changes position of shadow
         ),
       ],
     ),

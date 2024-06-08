@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:quran/utils/app_colors.dart';
 import 'package:quran/utils/app_consts.dart';
 import 'package:quran/utils/app_route.dart';
 import 'package:quran/widgets/intro_button_widget.dart';
@@ -19,7 +18,7 @@ class IntroScreenMobile extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Spacer(
+              const Spacer(
                 flex: 2,
               ),
               Text(
@@ -54,7 +53,7 @@ class IntroScreenMobile extends StatelessWidget {
                       })),
                 ],
               ),
-              Spacer(
+              const Spacer(
                 flex: 2,
               ),
             ],

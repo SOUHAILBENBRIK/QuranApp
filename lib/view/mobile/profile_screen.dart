@@ -87,9 +87,9 @@ Navigator.pushReplacementNamed(context, AppRoute.loginScreenMobile);
               });
               
             }),
-            Spacer(),
+            const Spacer(),
             Text("@Souhail Ben Brik 💜",style: Theme.of(context).textTheme.displaySmall,),
-            SizedBox(height: 10,)
+            const SizedBox(height: 10,)
           ],
         )),
   );
@@ -151,7 +151,7 @@ Widget _profileWidget(BuildContext context) {
       const SizedBox(
         height: 10,
       ),
-      (user != null && user.displayName != null && user.displayName!.isNotEmpty)
+      (user.displayName != null && user.displayName!.isNotEmpty)
           ? Text(
               user.displayName!,
               style: const TextStyle(color: Colors.white, fontSize: 20),
@@ -161,7 +161,7 @@ Widget _profileWidget(BuildContext context) {
         height: 5,
       ),
       Text(
-        user?.email ?? "user@gmaail.com",
+        user.email ?? "user@gmaail.com",
         style: const TextStyle(color: Colors.white, fontSize: 20),
       ),
       

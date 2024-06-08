@@ -10,14 +10,14 @@ class LayoutBuildScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(builder: (context, constraints) {
       if (constraints.maxWidth > 600) {
-        return Center(
+        return const Center(
           child: Text('nothing to show'),
         );
       } else {
         if(AuthController().getCurrentUser() != null){
-          return HomeScreen();
+          return const HomeScreen();
         }
-        return IntroScreenMobile();
+        return const IntroScreenMobile();
       }
     });
   }

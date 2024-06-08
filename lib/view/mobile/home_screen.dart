@@ -1,13 +1,10 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
-import 'package:quran/controller/api_controller.dart';
 import 'package:quran/controller/auth_controller.dart';
-import 'package:quran/model/chapter.dart';
 import 'package:quran/utils/app_colors.dart';
 import 'package:quran/utils/app_consts.dart';
-import 'package:quran/utils/app_route.dart';
-import 'package:quran/view/mobile/chapter_screen.dart';
 import 'package:quran/widgets/home_screen_widgets.dart';
 
 class HomeScreen extends StatefulWidget {

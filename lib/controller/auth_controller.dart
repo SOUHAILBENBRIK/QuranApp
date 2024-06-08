@@ -9,7 +9,7 @@ class AuthController {
   Future<User?> signInWithGoogle() async {
     try {
       final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
-      print(googleUser??"fddsfdsfds");
+      
       if (googleUser == null) {
         return null;
       }
@@ -26,7 +26,9 @@ class AuthController {
       debugPrint(userCredential.user?.email ?? "no email");
       return userCredential.user;
     } catch (e) {
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
       return null;
     }
   }

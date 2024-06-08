@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:flutter/foundation.dart';
 import 'package:quran/model/ayah.dart';
 import 'package:quran/model/chapter.dart';
 import 'package:quran/model/chapter_info.dart';
@@ -21,11 +22,15 @@ class ApiController {
         return null;
       }
     } on DioException catch (e) {
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
       return null;
     } catch (e) {
       // Handle any other exceptions
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
       return null;
     }
   }
@@ -38,19 +43,23 @@ class ApiController {
           ChapterInfo.fromMap(response.data['chapter_info']);
       return chapterInfo;
     } on DioException catch (e) {
-      print(e);
+     if (kDebugMode) {
+        print(e);
+      }
       return null;
     } catch (e) {
       // Handle any other exceptions
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
       return null;
     }
   }
 
-  static Future<List<Ayah>?>? getChapterAyah({required int chapter_id}) async {
+  static Future<List<Ayah>?>? getChapterAyah({required int chapterId}) async {
     try {
       Map<String, dynamic> queryParams = {
-        'chapter_number': chapter_id,
+        'chapter_number': chapterId,
       };
       Response response = await _dio.get('${AppConsts.url}/quran/verses/imlaei',
           queryParameters: queryParams);
@@ -65,27 +74,35 @@ class ApiController {
         return null;
       }
     } on DioException catch (e) {
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
       return null;
     } catch (e) {
       // Handle any other exceptions
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
       return null;
     }
   }
 
-  static Future<String?> getAudio({required int id,required int chapter_number}) async {
+  static Future<String?> getAudio({required int id,required int chapterNumber}) async {
     try {
       Response response =
-          await _dio.get('${AppConsts.url}/chapter_recitations/$id/$chapter_number');
+          await _dio.get('${AppConsts.url}/chapter_recitations/$id/$chapterNumber');
       var chaptersJson = response.data['audio_file']['audio_url'];
       return chaptersJson;
     } on DioException catch (e) {
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
       return null;
     } catch (e) {
       // Handle any other exceptions
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
       return null;
     }
   }

@@ -5,7 +5,6 @@ import 'package:quran/model/chapter.dart';
 import 'package:quran/utils/app_colors.dart';
 import 'package:quran/utils/app_consts.dart';
 import 'package:quran/utils/app_route.dart';
-import 'package:quran/widgets/bottom_sheet_widget.dart';
 
 class HomeScreenWidgets {
   static Center allChapter() {
@@ -53,7 +52,7 @@ class HomeScreenWidgets {
               const SizedBox(
                 width: 10,
               ),
-              Text(chapter.verses_count.toString() + " verses"),
+              Text("${chapter.verses_count} verses"),
             ],
           ),
           trailing: Text(
