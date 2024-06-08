@@ -68,7 +68,11 @@ This Flutter mobile app allows users to read and listen to the Quran seamlessly.
     ```bash
     flutter run
     ```
+## Download APK
 
+You can download the APK file from the link below:
+
+[Download Quran Reader & Player APK](https://drive.google.com/file/d/1lbKlZzdrnRR6FH6UBTkfhze9sT7jXLIp/view?usp=sharing)
 ## Contribution
 
 Feel free to fork this repository, submit issues and pull requests.
