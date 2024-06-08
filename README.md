@@ -26,23 +26,33 @@ This Flutter mobile app allows users to read and listen to the Quran seamlessly.
 - 📑 **Bookmarking**: Save your favorite verses for easy access.
 
 ## Screenshots
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <div style="flex: 1; min-width: 49%;">
+    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/introPage.jpeg" alt="Screenshot 1" style="width: 100%;">
+  </div>
+  <div style="flex: 1; min-width: 49%;">
+    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg" alt="Screenshot 2" style="width: 100%;">
+  </div>
+  <div style="flex: 1; min-width: 49%;">
+    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/homePage.jpeg" alt="Screenshot 3" style="width: 100%;">
+  </div>
+  <div style="flex: 1; min-width: 49%;">
+    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg" alt="Screenshot 4" style="width: 100%;">
+  </div>
+  <div style="flex: 1; min-width: 49%;">
+    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg" alt="Screenshot 5" style="width: 100%;">
+  </div>
+  <div style="flex: 1; min-width: 49%;">
+    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/homePage.jpeg" alt="Screenshot 6" style="width: 100%;">
+  </div>
+  <div style="flex: 1; min-width: 49%;">
+    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg" alt="Screenshot 7" style="width: 100%;">
+  </div>
+  <div style="flex: 1; min-width: 49%;">
+    <img src="https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg" alt="Screenshot 8" style="width: 100%;">
+  </div>
+</div>
 
-<div style="display: flex; justify-content: space-between;">
-![Screenshot 1](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/introPage.jpeg)
-![Screenshot 2](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg)
-</div>
-<div style="display: flex; justify-content: space-between;">
-![Screenshot 3](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/homePage.jpeg)
-![Screenshot 4](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg)
-</div>
-<div style="display: flex; justify-content: space-between;">
-![Screenshot 5](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg)
-![Screenshot 6](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/homePage.jpeg)
-</div>
-<div style="display: flex; justify-content: space-between;">
-![Screenshot 7](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg)
-![Screenshot 7](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg)
-</div>
 ## Installation
 
 1. Clone the repository:
