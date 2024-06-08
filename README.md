@@ -27,13 +27,21 @@ This Flutter mobile app allows users to read and listen to the Quran seamlessly.
 
 ## Screenshots
 
+<div style="display: flex; justify-content: space-between;">
 ![Screenshot 1](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/introPage.jpeg)
 ![Screenshot 2](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg)
+</div>
+<div style="display: flex; justify-content: space-between;">
 ![Screenshot 3](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/homePage.jpeg)
 ![Screenshot 4](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg)
+    </div>
+<div style="display: flex; justify-content: space-between;">
 ![Screenshot 5](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/loginPage.jpeg)
 ![Screenshot 6](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/homePage.jpeg)
+    </div>
+<div style="display: flex; justify-content: space-between;">
 ![Screenshot 7](https://github.com/SOUHAILBENBRIK/QuranApp/blob/master/assets/screenshot/ayahPage.jpeg)
+    </div>
 ## Installation
 
 1. Clone the repository:
